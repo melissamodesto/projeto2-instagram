@@ -21,6 +21,10 @@
 
 @media (max-width:614px) {
 
+    .feed {
+        margin: 54px 0 104px 0;
+    }
+
     .topo {
         width: 100%;
     }
@@ -84,4 +88,26 @@
     .linha-vertical {
         display: none;
     }
+
+    .icones-nav {
+        border: 1px solid #dbdbdb;
+        background-color: #FFFFFF;
+        display: flex;
+        width: 100%;
+        height: 54px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icones-nav ion-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
 }
