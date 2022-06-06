@@ -1,0 +1,87 @@
+@media (max-width:935px) {
+
+    .sidebar {
+        display: none;
+    }
+
+    .topo {
+        width: 100%;
+    }
+
+    .menu-topo {
+        width: 950px;
+        margin-right: 20px;
+    }
+
+    .feed {
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width:614px) {
+
+    .topo {
+        width: 100%;
+    }
+    
+    .menu-topo {
+        width: 100%;
+    }
+
+    .caixa-pesquisa {
+        display: none;
+    }
+
+    .icones ion-icon:nth-child(2) {
+        display: none;
+    }
+
+    .icones ion-icon:nth-child(3) {
+        display: none;
+    }
+
+    .icones ion-icon:nth-child(4) {
+        display: none;
+    }
+
+    .menu-stories {
+        width: 100%;
+        border-bottom: 1px solid #dbdbdb;
+        border-top: 1px solid #dbdbdb;
+        margin: 0 0 24px 0;
+    }
+
+    .seta-stories {
+        display: none;
+    }
+
+    .coluna-posts {
+        width: 100%;
+    }
+
+    
+    .caixa-pesquisa {
+        display: none;
+    }
+
+    .icone-mobile {
+        display: initial;
+    }
+
+    .logo-mobile {
+        display: initial;
+    }
+
+    .menu-topo div:nth-child(1) {
+        display: none;
+    }
+    
+    .icones ion-icon {
+        margin-left: 0;
+    }
+
+    .linha-vertical {
+        display: none;
+    }
+}

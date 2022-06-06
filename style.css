@@ -1,0 +1,346 @@
+body {
+    display: flex;
+    justify-content: center; 
+    background-color: #FAFAFA;
+    bottom: 100px;
+}
+
+.topo {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 54px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.icone-mobile {
+    display: none;
+}
+
+.menu-topo {
+    height: 54px;
+    width: 950px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.menu-topo div:nth-child(1) {
+    display: flex;
+}
+
+.icones ion-icon {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;  
+    cursor: pointer;
+}
+
+.topo img {
+    margin-top: 5px;
+    height: 29px;
+    width: 103px;
+}
+
+
+.caixa-pesquisa input {
+    top: 13px;
+    width: 215px;
+    height: 28px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.linha-vertical {
+    color: #DBDBDB;
+    width: 1px;
+    height: 22px;
+    margin: auto 10px;
+}
+
+.menu-stories {
+    display: flex;
+    margin: 34px auto 24px auto;
+    height: 118px;
+    width: 614px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;  
+    padding-left: 18px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.background {
+    height: 66px;
+    width: 66px;
+    justify-content: space-around;
+}
+
+.stories {
+    width: 66px;
+    height: 66px;
+    margin-right: 14px;
+    position: relative;
+}
+
+.stories p {
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.stories-img {
+    align-items: center;
+    position: absolute;
+    top: 5.35px;
+    left: 5px;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.seta-stories {
+    width: 25px;
+    height: 25px;
+    color: #FFFFFF;
+    border-radius: 100px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    z-index: 2;
+    box-shadow: 3px 3px 20px black;
+    cursor: pointer;
+}
+
+.topo ion-icon {
+    color:black;
+    justify-content: space-between;
+    align-items: center;
+    width: 25px;
+    height: 25px;  
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.feed {
+    width: 936px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 54px 0 auto 0px;
+    position: relative;    
+}
+
+.coluna-esquerda {
+    width: 614px;
+}
+
+.coluna-posts {
+    width: 612px;
+    height: 50px;
+}
+
+.posts {
+    width: 614px;
+    height: 749px;
+    margin-bottom: 60px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.post-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-profile div {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile ion-icon {
+    height: 20px;
+    width: 20px;
+    padding-right: 18px;
+    cursor: pointer;
+}
+
+.picture-profile {
+    width: 32px;
+    height: 32px;
+    margin: 15px 15px 14px 17px;
+    cursor: pointer;
+}
+
+.post-profile p {
+    font-size: 14px;
+}
+
+.posts ion-icon {
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.info-posts {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 10px;
+}
+
+.info-img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.posts-img {
+    height: auto;
+    width: 614px;
+}
+
+.posts, .posts-video {
+    height: auto;
+    width: 614px;
+}
+
+.heart {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.chatbubble {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.plane {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.bookmark {
+    height: 20px;
+    width: 20px;
+    float: right;
+    padding-right: 18px;
+    cursor: pointer;
+}
+
+.coluna-direita {
+    position: absolute;
+    top: -55px;
+    right: -290px;
+}
+
+.sidebar {
+    margin: 36px auto auto 28px;
+    width: 293px;
+    position: absolute;
+    right: 290px;
+    top: 52px;
+}
+
+.usuarios {
+    display: flex;
+}
+
+.usuarios img {
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.para-voce {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-voce p:nth-child(1) {
+    color: #8e8e88;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.para-voce p:nth-child(2) {
+    color: #262626;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.linha-horizontal {
+    border-top: 9px solid #FAFAFA;
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+
+.sugestao-img {
+    height: 32px;s
+    width: 32px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    text-decoration: inherit;
+    color: black;
+}
+
+.sugestao-seguir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0 16px 0;
+}
+
+.nome-seguir p:nth-child(1) {
+    color: #262626;
+    line-height: 16.41px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.nome-seguir p:nth-child(2) {
+    margin-top: 6px;
+    color: #8e8e8e;
+    font-size: 12px;
+    width: 143px;
+}
+
+.seguir {
+   color: #139EF2 ; 
+   font-size: 12px;
+}
+
