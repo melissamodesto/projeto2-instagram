@@ -17,10 +17,6 @@
         justify-content: center;
     }
     
-    .navbar {
-        display: none;
-    }
-    
 }
 
 @media (max-width:614px) {
